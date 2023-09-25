@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Tabelas HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <span><a href="/index.html">Página de Tabelas 1</a></span>
+            <span class="pag_2"><a href="/pagina_2.html">Página de Tabelas 2</a></span>
+            <span class="pag_2"><a href="/pagina_3.html">Página de Tabelas 3</a></span>
+        </nav>
+
+    </header>
+
+    <!--Tabela 1-->
+    <table class="tb_1">
+
+        <caption>Tabela 1</caption>
+
+        <tr class="tr_1l">
+            <td class="td_1">1</td>
+            <td class="td_1">2</td>
+            <td class="td_1">3</td>
+        </tr>
+        <tr class="tr_1c">
+            <td class="td_1">4</td>
+            <td class="td_1">5</td>
+            <td class="td_1">6</td>
+        </tr>
+        <tr class="tr_1r">
+            <td class="td_1">7</td>
+            <td class="td_1">8</td>
+            <td class="td_1">9</td>
+        </tr>
+    </table>
+
+    <br />
+
+<!--Tabela 2-->
+    <table class="tb_2">
+
+        <caption>Tabela 2</caption>
+
+        <tr class="tr_2">
+            <td class="td_2l">1</td>
+            <td class="td_2l">2</td>
+            <td class="td_2l">3</td>
+        </tr>
+        <tr >
+            <td class="td_2c"colspan="3">4</td>
+        </tr>
+        <tr>
+            <td class="td_2l">7</td>
+            <td class="td_2l">8</td>
+            <td class="td_2l">9</td>
+        </tr>
+    </table>
+
+    <br />
+
+    <!--Tabela 3-->
+
+    <table class="tb_3">
+
+        <caption>Tabela 3</caption>
+
+        <tr>
+            <td class="td_3">1</td>
+            <td class="td_3">2</td>
+            <td class="td_rowspan td_3" rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td class="td_colspan td_3" colspan="2">4</td>
+        </tr>
+        <tr>
+            <td class="td_3">5</td>
+            <td class="td_3">6</td>
+            
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,155 @@
+header {
+    margin-bottom: 40px;
+}
+
+.pag_2 {
+    margin-left: 50px;
+}
+
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 1 */
+
+.tb_1 {
+    width: 50%;
+}
+
+.tb_1, .td_1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tr_1l {
+    text-align: left;
+}
+
+.tr_1c{
+    text-align: center;
+}
+
+.tr_1r {
+    text-align: right;
+}
+
+
+
+/* Tabela 2 */
+
+.tb_2 {
+    width: 50%;
+}
+
+.tb_2, .td_2l {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td_2c {
+    text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 3 */
+
+table {
+    width: 50%;
+}
+
+.tb_3, .td_3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td_rowspan, .td_colspan {
+    text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 4 */
+
+.th_4_topo {
+    width: 600px;
+    height: 80px;
+    border: solid 2px black; 
+}
+
+.tr_menu_conteudo {
+    height: 300px;
+    text-align: center;
+}
+
+.td_menu {
+    width: 150px;
+    border: solid 2px black; 
+
+}
+
+.td_conteudo {
+    border: solid 2px black; 
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 6 */
+
+.tb_6 {
+    width: 50%;
+}
+
+.tb_6, .td_6 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td_6 {
+    text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 7 */
+
+.tb_7 {
+    width: 50%;
+}
+
+.tb_7, .td_7 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td_7 {
+    text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Tabela 8 */
+
+.tb_8 {
+    width: 50%;
+}
+
+.tb_8, .td_8 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td_8 {
+    text-align: center;
+}
